@@ -11,5 +11,8 @@ public class MyRestController {
     String myName(){
         return "Patryk";
     }
-
+    @GetMapping("/age")
+    String myAge(){
+        return "12";
+    }
 }
