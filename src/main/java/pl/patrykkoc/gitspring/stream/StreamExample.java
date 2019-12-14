@@ -22,11 +22,11 @@ public class StreamExample {
                 "red",
                 "pink"
         );
-
+//
         //exercise:
          
         colors.stream().filter(s -> {
-            Log.info("testing object [{}]",s);
+            Log.info("testing object [{}], passed ? [{}]",s,s.length() >=4);
             return s.length()>=4; })
                 .map(s -> {
                     Log.info("mapping object [{}]",s);
