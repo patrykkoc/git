@@ -26,8 +26,9 @@ public class StreamExample {
         //exercise:
          
         colors.stream().filter(s -> {
-            Log.info("testing object [{}]",s);
-            return s.length()>=4; })
+            boolean tru = s.length()>=4;
+            Log.info("testing object [{}], passed ? [{}]",s,tru);
+            return tru; })
                 .map(s -> {
                     Log.info("mapping object [{}]",s);
                     return s.length();
