@@ -1,8 +1,9 @@
-package pl.patrykkoc.gitspring;
+package pl.patrykkoc.gitspring.controller;
 
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import pl.patrykkoc.gitspring.Person;
 
 @Controller
 public class FirstController {
