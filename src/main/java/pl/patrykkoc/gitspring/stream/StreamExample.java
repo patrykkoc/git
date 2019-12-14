@@ -35,7 +35,7 @@ public class StreamExample {
                 })
 
                 .collect(Collectors.toList())
-        .forEach(integer -> System.out.println("number " + integer));
+        .forEach(integer -> System.out.println("number [" + integer + "]"));
 
 
 
