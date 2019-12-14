@@ -23,7 +23,7 @@ public class StreamExample {
                 "pink"
         );
 
-        //exercise:
+
          
         colors.stream().filter(s -> {
             boolean tru = s.length()>=4;
