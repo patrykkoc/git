@@ -21,6 +21,7 @@ public class OptionalExample {
     private static Optional<String> findNick(){
         Optional<String> maybeNick = Optional.of("A");
      //   return Optional.empty();
+        System.out.println("searching for nick..");
 return maybeNick;
 
     }
